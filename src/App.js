@@ -17,9 +17,6 @@ const getRecipes = async() =>{
   const data = await response.json();
   setRecipes(data.hits);
   console.log(data.hits)
- // fetch(query_param)
- // .then(response => response.json())
- // .then(data =>console.log(data));
 }
 
 const updateSearch= e=>{
